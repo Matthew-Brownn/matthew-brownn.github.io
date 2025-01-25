@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Matthew Brown</title>
+
+  <link rel="stylesheet" href="CSS/styles.css">
+</head>
+
+<div class="wrapper">
+  <nav>
+    <p>Matthew Brown</p>
+    <p><a href="index.html">About Matthew Brown</a></p>
+  </nav>
+
+  <!--This is the contact info-->
+  <section class="one-col">
+    <h1>Contact Matthew Brown</h1>
+    <p>1000 Lakeside Drive, Athens Georgia &bull; (478)-230-1555 &bull; matthewcbrownn@gmail.com</p>
+  </section>
+
+  <!--This is the submission form-->
+  <form target="_blank" action="https://formsubmit.co/0d1498cd1085c294d7d636a0eb1b835a" method="post"
+    data-redirect="thankyou.html" class="one-col">
+
+    <!--Name Info-->
+    <label for="name">Name</label>
+    <input type="text" name="name">
+
+    <!--Email Info-->
+    <label for="email">Email</label>
+    <input type="text" name="email">
+
+    <!--Message Info-->
+    <label for="message">Message</label>
+    <textarea name="message" style="width: 250px; height: 100px;"></textarea>
+
+    <!--Submit Button-->
+    <button type="submit">Submit</button>
+
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="http://127.0.0.1:5500/thankyou.html">
+  </form>
+
+  <!--Footer-->
+  <footer>&copy; <a href="index.html">Matthew Brown</a></footer>
+</div>
+
+</html>
